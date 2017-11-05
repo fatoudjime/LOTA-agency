@@ -44,6 +44,28 @@
 					  
 				  }
 				  
+				/* Back to top button */
+				#myBtn {
+					display:none; /* Hidden by default */
+					position: fixed; /* Fixed/sticky position */
+					bottom: 20px; /* Place the button at the bottom of the page */
+					right: 30px; /* Place the button 30px from the right */
+					z-index: 99; /* Make sure it does not overlap */
+					border:none; /* Remove borders */
+					outline: none; /* Remove outline */
+					background-color:#FC6F5B ; /* Set a background color */
+					color:white; /* Text color */
+					opacity:0.6;
+					cursor: pointer; /* Add a mouse pointer on hover */
+					padding: 15px; /* Some padding */
+					border-radius: 10px; /* Rounded corners */
+				}
+
+				#myBtn:hover {
+   					 background-color:#55D7B3; /* Add a dark-grey background on hover */
+				}
+				
+
 			  /* Other effects */
 		  
 				  body{
@@ -84,6 +106,12 @@
   
 				  }
 				  
+				.contact-btn{
+					text-align:center;
+					margin-top:5%;
+					margin-bottom:2%;
+				}
+				
 				  p{
 					  font-size:25px;
 					  font-weight:300;
@@ -196,7 +224,6 @@
 					   text-align: center;
 					   display:none;
 					   background-color:white;
-					   background-color:white;
 					   opacity: 0.7;
  				 }
   
@@ -240,8 +267,9 @@
 					  opacity:0.7;
 				  }
 				  				  
-				  .footer{
+				  #footer{
 					  background-color:#515C5C;
+					  margin-bottom:0px;
   
 				  }
 				  
@@ -288,10 +316,30 @@
 					  
 				  }
 				  
-				  P#footer{
-					  margin-bottom:0px;
-					  
+				  .smalltxt{
+					  font-size:160%;
+					  color:#FC6F5B;
 				  }
+				  
+				  #witness{
+					  margin-bottom:10%;
+				  }
+				  
+				  #ftext{
+					  color:white;
+					  text-align:left;
+					  font-family: 'Belleza', sans-serif;
+					  font-size:20px;		
+
+				  }
+				  
+				  #ftext2{
+					  text-align:right;
+				  }
+				  
+			
+				  
+				
 	  
   
 			   

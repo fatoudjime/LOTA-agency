@@ -3,6 +3,8 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+            <meta name="robots" content="noindex, nofollow">
+
             <title>Travel Agency</title>
                    <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
@@ -20,13 +22,10 @@
                 <link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
                 <link rel="stylesheet" media="screen" type="text/css" href="style.css">
     
-    			<!-- Fontawesome-->
-                <script src="https://use.fontawesome.com/36a3f64c4a.js"></script>
-
-            
     </head>
     
        <body>
+
 
         <header> 
         <div class="barremenu">
@@ -45,7 +44,7 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#about-us"> About us <!--span class="sr-only"--><!--/span--></a>
+                    <a class="nav-link" href="#about-us"> About us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#dsection"> Destinations</a>
@@ -54,7 +53,7 @@
                     <a class="nav-link" href="#temoignages">Avis clients</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> Contact</a>
+                    <a class="nav-link" href="#nouscontacter"> Contact</a>
                 </li>
                 </ul>            
         </div>
@@ -66,31 +65,22 @@
         </div>	 
     </header>
             
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     
         <section id="psection">
         
             <hr class="line" color=#FC6F5B width=5% size="2"> 
             <h3 id="about-us"> Qui sommes-nous? </h3>
             <div class="container">
-            <div class="row">		
-                <div class="col">
-                <p> </p>
+            <div class="row align-items-center">
+                <div class="col-sm">
+                <img src="img/people-love.jpg" class="img-fluid rounded" alt="couple-amoureux" width="80%">
                 </div> 
-                <div class="col-md-12">
-                <p></p>
-                </div> 
-            </div>
-            </div>
-            
-            <div class="row">	
-                <div class="col">
-                <img src="img/people-love.jpg" class="img-fluid" alt="couple-amoureux" width="80%">
-                </div> 
-                <div class="col-md-5">
+                <div class="col-sm">
                     <div class="plaintxt"><p>Créée en 2010, notre agence de voyage, leader sur son marché, propose le concept novateur de voyage groupés entre célibataires.</p><p>Notre double expertise de <span class=important-info> "matchmakers" </span> et d'agents de voyage nous permet de vous proposer des séjours à double vocation : découvrir des endroits paradisiaques et trouver l'amour.</p></div>
             	</div> 
             </div>
-            
+            </div>
         </section>
     
          
@@ -122,7 +112,7 @@
             	
                 <div class="col-md-3">
                 		<div class="overlay-container">
-                		<p class="title-desti">Bahamas</p><img class="offres img-fluid" src="img/bahamas-2.jpg" alt="offre-bahamas">
+                		<p class="title-desti">Bahamas</p><img class="offres img-fluid rounded" src="img/bahamas-2.jpg" alt="offre-bahamas">
                         <div class="overlay"><p class="text-desti">Calme et sérénité aux Bahamas</p>
                         </div>
                         </div>
@@ -130,7 +120,7 @@
                 
                 <div class="col-md-3">
                 		<div class="overlay-container">
-                		<p class="title-desti">Santorin</p><img class="offres img-fluid" src="img/santorin-3.jpg" alt="offre-santorin">
+                		<p class="title-desti">Santorin</p><img class="offres img-fluid rounded" src="img/santorin-3.jpg" alt="offre-santorin">
                         <div class="overlay"><p class="text-desti"> A la découverte des Cyclades</p>
                         </div>
                		 	</div> 
@@ -138,15 +128,15 @@
                 
                 <div class="col-md-3">
                 		<div class="overlay-container">
-                		<p class="title-desti"> Tanzanie</p><img class="offres img-fluid" src="img/safari-4.jpg" alt="offre-safari-afrique">
+                		<p class="title-desti"> Tanzanie</p><img class="offres img-fluid rounded" src="img/safari-4.jpg" alt="offre-safari-afrique">
                         <div class="overlay"><p class="text-desti"> Rencontrez le roi de la savane! </p>
                         </div>
                 		</div>
                 </div> 
                 <div class="col-md-3">
                        <div class="overlay-container">
-              			<p class="title-desti">Islande</p><img class="offres img-fluid" src="img/iceland-5.jpg" alt="islande-aurores-boreales">
-                        <div class="overlay"><p class="text-desti">A la chasse aux aurores boréales!</p>                        
+              			<p class="title-desti">Islande</p><img class="offres img-fluid rounded" src="img/iceland-5.jpg" alt="islande-aurores-boreales">
+                        <div class="overlay"><p class="text-desti">A la chasse aux aurores boréales !</p>                        
                 		</div> 
                 </div>
             </div>
@@ -161,7 +151,7 @@
                 	
                 <div class="col-md-3">
                 		<div class="overlay-container">
-                		<p class="title-desti">Cuba</p><img class="offres img-fluid" src="img/cuba-6.jpg" alt="offre-cuba">
+                		<p class="title-desti">Cuba</p><img class="offres img-fluid rounded" src="img/cuba-6.jpg" alt="offre-cuba">
                         <div class="overlay"><p class="text-desti"> Découvrez l'île mythique </p>
                         </div>                       
                 		</div>
@@ -169,7 +159,7 @@
                 
                 <div class="col-md-3">
                 		<div class="overlay-container">
-                		<p class="title-desti">Thaïlande</p><img class="offres img-fluid" src="img/thailande-7.jpg" alt="offre-thaïlande">
+                		<p class="title-desti">Thaïlande</p><img class="offres img-fluid rounded" src="img/thailande-7.jpg" alt="offre-thaïlande">
                         <div class="overlay"><p class="text-desti">Ressourcez-vous en Thaïlande</p>
                         </div>                       
                 		</div>
@@ -181,7 +171,6 @@
             </div>
             </div> 
             </div>            
-                                <button type="button" class="btn btn-outline-secondary">Nous contacter</button>
 
         </section>
         
@@ -195,7 +184,7 @@
             	<div class="row">
                         <div class="col-md-4"><img src="img/double-quote-left.png" width="170" class="img-fluid quote-marks" alt="quote-marksleft"></div> 
                  		<div class="col-md-8">
-                			<p>"Le séjour aux Maldives de Juin 2016 a été inoubliable! J'ai non seulement découvert un endroit paradisiaque mais j'ai aussi rencontré Solange, et nous ne nous sommes plus quitté depuis. Nous sommes fiancés et le mariage est prévu pour l'année prochaine... Aux Maldives! Un grand merci à toute l'équipe."<br>Stéphane, Nantes</p>
+                			<p>"Le séjour aux Maldives de Juin 2016 a été inoubliable! J'ai non seulement découvert un endroit paradisiaque mais j'ai aussi rencontré Solange, et nous ne nous sommes plus quitté depuis. Nous sommes fiancés et le mariage est prévu pour l'année prochaine... Aux Maldives! Un grand merci à toute l'équipe."<p class="smalltxt" id="witness">Stéphane, Nantes</p></p>
                 		</div>
                 </div>
                 
@@ -203,37 +192,156 @@
                 <div class="row">
                         
                         <div class="col-md-8">
-                			<p>"Professionnalisme, prestations de qualité, une ambiance fun entre célibataires: le combo parfait pour des vacances de rêve. Je recommande l'expérience!"<br>Justine, Paris </p>
+                			<p>"Professionnalisme, prestations de qualité, une ambiance fun entre célibataires: le combo parfait pour des vacances de rêve. Je recommande l'expérience!"<p class="smalltxt">Justine, Paris</p></p>
                 		</div>
-                        <div class="col-md-4"><img src="img/double-quote-right.png" width="170" class="img-fluid quote-marks" alt="quote-marksright"></div>
+                        <div class="col-md-3"><img src="img/double-quote-right.png" width="170" class="img-fluid float-right quote-marks" alt="quote-marksright"></div>
 				</div>
                  </div>       
     
                </div>
+               <div class="contact-btn"><a class="nav-link" href="#nouscontacter"><button type="button" class="btn btn-outline-secondary btn-lg">Nous contacter</button></a></div>
    
         </section>
+             
+            
+        <section id="formulaire">
+        
+        <hr class="line" color=#FC6F5B width=5% size="2">  
+            <h3 id="nouscontacter"> Nous contacter </h3>       
+            <div class="plaintxt">  
+        	<div class="container">
+            <div class="row">
+            	<div class="col-md-1"></div>
+            	<div class="col">
+                <p> Vous souhaitez participer à un de nos séjours ou tout simplement obtenir plus d'informations?</p> 
+                </div>
+            </div>
+                
+            <div class="row">
+            	<div class="col-md-1"></div>
+                <div class="col">
+                <p> Remplissez le formulaire ci-dessous et un de nos agents vous recontactera dans les plus brefs délais. </p>
+                </div>                
+            </div>
+            
+            </div>
+            </div>
+
+           
+<form action="https://formspree.io/d-fatou-ta@hotmail.fr" method="POST">
+  <div class="form-row">
+  
+   <div class="form-group col">
+      <label for="name">Nom</label>
+      <input type="text" class="form-control"  placeholder="Last name">
+    </div>
     
-        <footer>
-        <div class="footer"><p id=footer><img src="img/twitter-footer.png" alt="twitter" class="rs img-fluid" width="35"><img src="img/facebook-footer.png" alt="facebook" class="rs img-fluid" width="35"><img src="img/instagram-footer.png" alt="instagram" class="rs img-fluid" width="35"><img src="img/pinterest-footer2.png" alt="pinterest" class="rs img-fluid" width="35"></p>
+    <div class="form-group col">
+      <label for="name">Prénom</label>
+      <input type="text" class="form-control"  placeholder="First name">
+    </div>
+    
+ </div>
+    
+    <div class="form-row">
+    
+    <div class="form-group col">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+     <small id="emailHelp" class="form-text text-muted">Nous ne partagerons pas votre email à des tiers.</small>
+
+    </div>
+    
+    <div class="form-group col">
+      <label for="number">Numéro de téléphone</label>
+      <input type="password" class="form-control" id="number" placeholder="Number">
+    </div>
+    
+  </div>
+  
+ 
+  <div class="form-group col">
+      <label for="inputState">Moyen de contact privilégié</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>Mail</option>
+        <option>Téléphone</option>
+        <option>Les 2</option>
+      </select>
+      </div>
+      
+ <div class="form-group col">
+      <label for="inputState">Disponibilité</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>8:00-10:00</option>
+        <option>10:00-12:00</option>
+        <option>12:00-14:00</option>
+        <option>14:00-16:00</option>
+        <option>16:00-18:00</option>
+        <option>18:00-20:00</option>
+      </select>
+    </div>
+    
+    
+    <div class="form-group col">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+    </div>
+  
+    </div>
+      <div class="contact-btn"> <button class="btn btn-primary" type="submit" id="bouton">Envoyer</button></div>    
+
+    </form>
+
+        </section>
+    
+    
+        <footer id="footer">
+        <div class="container">
+        <div class="row justify-content-between">
+        <div class="col-md-6"> <p id="ftext"> ©LOTA - Agence de voyages-rencontres en ligne</p></div>
+        <div class="col-md-6"><p id="ftext2"><img src="img/twitter-footer.png" alt="twitter" class="rs img-fluid" width="35"><img src="img/facebook-footer.png" alt="facebook" class="rs img-fluid" width="35"><img src="img/instagram-footer.png" alt="instagram" class="rs img-fluid" width="35"><img src="img/pinterest-footer2.png" alt="pinterest" class="rs img-fluid" width="35"></p> </div>
+        </div>
         </div>
         </footer>
         
+        
     <!-- Optional JavaScript -->
+ 
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 					crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>    
-        
 
-			<script type="text/javascript">
-				$(document).ready(function(){
-				var page = $(this).attr('href');
-				console.log($(page).offset().top);
-              	var speed = 750; 
-				$('html, body').animate( { scrollTop: $(page).offset().top }, speed );
-				});
+<script type="text/javascript">
+    $(document).ready(function(){
+        //Fermeture du burger on click
+          $('.nav-link').click(function(){
+              $("#navbar").collapse('hide');
+          });
+      });
 </script>
-        
+			
     </body>
         
     </html>
